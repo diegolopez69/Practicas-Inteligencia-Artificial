@@ -22,7 +22,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.25, random_state=37, stratify=y)
 
 # instantiate the kNN classifier with n neighbors
-knn = KNeighborsClassifier(n_neighbors=5)
+knn = KNeighborsClassifier(n_neighbors=10)
 
 # fit the model with the training data
 knn.fit(X_train, y_train)
