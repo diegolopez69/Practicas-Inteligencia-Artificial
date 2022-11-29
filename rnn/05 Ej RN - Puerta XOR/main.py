@@ -6,8 +6,7 @@ print('numpy: %s' % np.__version__)
 # de la librería Keras importar el tipo de modelo Sequential y el tipo de capa Dense(la más normal)
 
 # Crear los arrays de entrada y salida
-# compuertas XOR. Cuatro entradas [0,0], [0,1], [1,0],[1,1] y sus salidas:
-0, 1, 1, 0.
+# compuertas XOR. Cuatro entradas [0,0], [0,1], [1,0],[1,1] y sus salidas: 0, 1, 1, 0.
 training_data = np.array([[0, 0], [0, 1], [1, 0], [1, 1]], "float32")
 # y las salidas, en el mismo orden
 target_data = np.array([[0], [1], [1], [0]], "float32")
